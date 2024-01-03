@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+<meta name="google-site-verification" content="PCJgKqf7_1krHwDsc0pe7uor_J0dEHz-Xv1HEbBw_m0" />
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
