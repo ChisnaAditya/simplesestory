@@ -1,10 +1,10 @@
 export default function Gallery() {
     return (
-        <div className="container h-screen flex items-center">
-            <article className="prose">
-                <h1>Gallery</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae non explicabo cupiditate quaerat odio officiis nisi pariatur totam ex iste mollitia architecto exercitationem, earum hic quasi excepturi error? Perspiciatis, accusantium.</p>
-            </article>
+        <div className="container h-screen flex flex-col items-center justify-center">
+            <h1 className="text-brand-primary mb-3 mt-2 text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
+                Gallery
+            </h1>
+            <p className="text-lg">We are a small passionate team.</p>
         </div>
     )
 }
