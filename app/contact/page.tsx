@@ -47,7 +47,7 @@ export default function Contact() {
                         <input onChange={(e) => setNomor(e.target.value)} type="text" placeholder="Phone Number" className="input input-bordered w-full" />
                         <textarea onChange={(e) => setMessage(e.target.value)} placeholder="Your Message" className="textarea textarea-bordered"></textarea>
 
-                        <Link href={`https://wa.me/0895606077603?text=${txt}`}>
+                        <Link href={`https://wa.me/62895606077603?text=${txt}`}>
                             <button className="btn w-full">Contact Us</button>
                         </Link>
                     </div>
