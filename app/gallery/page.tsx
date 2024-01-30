@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: 'GALLERY | SIMPLESESTORY',
+    description: 'Indulge in a visual feast of love and beauty with our enchanting wedding photo gallery. Immerse yourself in a collection of breathtaking moments, capturing the essence of joy, romance, and timeless elegance',
+}
+
 export default function Gallery() {
     return (
         <div className="container h-screen flex flex-col items-center justify-center">

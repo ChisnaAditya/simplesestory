@@ -1,4 +1,10 @@
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: 'SIMPLESESTORY',
+    description: 'Welcome to SIMPLESESTORY, where dreams unfold and love stories blossom. At our core, we are passionate storytellers, dedicated to bringing your unique love narrative to life.',
+}
 
 export default function About() {
     return (

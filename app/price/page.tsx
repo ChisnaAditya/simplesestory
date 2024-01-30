@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: 'PRICE | SIMPLESESTORY',
+    description: 'Unveil the path to your dream wedding with our transparent and customizable pricing options. Explore our comprehensive wedding packages designed to cater to every need and budget.',
+}
+
 export default function Price() {
     return (
         <div className="container h-screen flex flex-col items-center justify-center">
